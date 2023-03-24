@@ -3,19 +3,19 @@ name: Build my gitbook and deploy to gh-pages
 on:
   push:
     branches:
-      - dev
+      - master
   pull_request:
     branches:
-      - dev
+      - master
 jobs:
   to-gh-pages:
     runs-on: ubuntu-latest
 
     steps:
-      - name: checkout dev
+      - name: checkout master
         uses: actions/checkout@v2
         with:
-          ref: dev
+          ref: master
 
       - name: install nodejs
         uses: actions/setup-node@v1
