@@ -32,7 +32,7 @@ jobs:
           cp SUMMARY.md _book
       - name: push _book to branch gh-pages
         env:
-          TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REF: github.com/${{github.repository}}
           MYEMAIL: opensustech@outlook.com
           MYNAME: ${{github.repository_owner}}
