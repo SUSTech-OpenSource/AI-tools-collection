@@ -5,3 +5,7 @@
 ## 编程
 
 * [编程工具](bian-cheng/bian-cheng-gong-ju.md)
+
+## 论文
+
+* [论文阅读](lun-wen/lun-wen-yue-du.md)
