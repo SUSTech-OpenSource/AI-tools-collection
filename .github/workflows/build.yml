@@ -30,19 +30,8 @@ jobs:
           book sm
           gitbook build
           cp SUMMARY.md _book
-      - name: push _book to branch gh-pages
-        env:
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REF: github.com/${{github.repository}}
-          MYEMAIL: opensustech@outlook.com
-          MYNAME: ${{github.repository_owner}}
-        run: |
-          cd _book
-          git config --global user.email "${MYEMAIL}"
-          git config --global user.name "${MYNAME}"
-          git init
-          git remote add origin https://${REF}
-          git add . 
-          git commit -m "Updated By Github Actions With Build ${{github.run_number}} of ${{github.workflow}} For Github Pages"
-          git branch -M main
-          git push --force --quiet "https://${TOKEN}@${REF}" main:gh-pages
+      - name: deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          BRANCH: gh-pages
+          FOLDER: ./_book
