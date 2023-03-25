@@ -18,3 +18,9 @@
 ## 搜索工具
 
 * [New bing](sou-suo-gong-ju/new-bing.md)
+
+## Office
+
+* [Office Copilot](office/office-copilot.md)
+* [PowerPoint](office/powerpoint.md)
+* [Word文字处理](office/word-wen-zi-chu-li.md)
