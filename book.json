@@ -1,5 +1,8 @@
 {
   "title": "AI工具集合",
   "description": "AI工具集合站，包括一些镜像站",
-  "language": "zh-hans"
+  "language": "zh-hans",
+  "plugins": [
+    "-lunr", "-search", "-highlight" , "search-pro", "chapter-fold", "@honkit/honkit-plugin-highlight", "theme-comscore"
+  ]
 }

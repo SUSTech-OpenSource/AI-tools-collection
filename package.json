@@ -5,5 +5,10 @@
   },
   "devDependencies": {
     "honkit": "^4.0.3"
+  },
+  "dependencies": {
+    "gitbook-plugin-chapter-fold": "^0.0.4",
+    "gitbook-plugin-search-pro": "^2.0.2",
+    "gitbook-plugin-theme-comscore": "^0.0.3"
   }
 }
