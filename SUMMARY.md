@@ -24,3 +24,7 @@
 * [Office Copilot](office/office-copilot.md)
 * [PowerPoint](office/powerpoint.md)
 * [Word文字处理](office/word-wen-zi-chu-li.md)
+
+## 设计工具
+
+* [画图](she-ji-gong-ju/hua-tu.md)

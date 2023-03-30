@@ -1,6 +1,6 @@
 # 编程工具
 
-[Cursor](https://www.cursor.so/) \[免费]: 本地编辑器，可以使用AI辅助编写代码，还能聊天&#x20;
+[Cursor](https://www.cursor.so/) \[付费]: 本地编辑器，可以使用AI辅助编写代码，还能聊天，**注意，其目前采取20美刀一个月的付费机制，否则有限额**
 
 [GitHub Copilot](https://github.com/features/copilot) \[教育免费]: github官方AI工具，可以帮助debug，教育免费，需要购买，vscode插件使用。
 
