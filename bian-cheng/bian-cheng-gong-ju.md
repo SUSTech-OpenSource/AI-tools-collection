@@ -10,5 +10,7 @@
 
 [GitHub Copilot X](https://github.com/features/preview/copilot-x) \[需要Copilot且需要申请资格]: GitHub Copilot的新版本，基于GPT4，可以聊天，写文档等更多功能。
 
+[agent-qa](https://vostride.com) \[本地安装，模型与外部服务费用另计]: 通过 CLI/MCP 测试 Web、Android 和 iOS 应用，结合 memidex 持久记忆、经过验证的自我改进与可复核运行证据；需要 Node.js 24+、项目配置与模型认证。
+
 
 
